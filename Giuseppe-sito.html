@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no" />
+    <title>My personal web site</title>
+
+<!-- LINK ANIMATION -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+   />
+<!-- LINK ANIMATION -->
+
+<!--  LINK FONT -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<!-- LINK FONT -->
+   
+<!-- LINK BOOTSTRAP -->
+  <link
+      rel="stylesheet"
+      href="../Giuseppe-Lavello-sito/bootstrap.min.css"/>
+<!-- LINK BOOTSTRAP -->
+
+<!-- LINK STYLE -->
+      <link rel="stylesheet" href="../Giuseppe-Lavello-sito/style.css">
+<!-- LINK STYLE -->
+
+<!-- LINK ICONE -->
+      <script
+      src="https://kit.fontawesome.com/5dd057d6d2.js"
+      crossorigin="anonymous"
+  ></script>
+<!-- LINK ICONE -->
+
+<!-- SMOOTH SCROLL -->
+<script>
+$(document).ready(function(){
+  
+  $("a").on('click', function(event) {
+    
+    if (this.hash !== "") {
+     
+      event.preventDefault();
+     
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+           
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+</script>
+<!-- SMOOTH SCROLL -->
+  
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="Giuseppe-sito.html">GIUSEPPE</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+
+            <li class="nav-item">
+                <a class="nav-link" href="#section1">Home</a>
+              </li> <li class="nav-item">
+                <a class="nav-link" href="#section2">About</a>
+              </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="#section3">Works</a>
+          </li>
+          <li class="nav-item">
+            <a button type="button" href="#section4" id="first-button" class="btn btn-outline-primary">Contact</button></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- NAVBAR -->
+
+    <div id="cover-image"></div>
+  
+    <!-- PRESENTATION -->
+
+    <div id="section1"></div>
+    <div class="container animated fadeInUp" class="presentation">
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Hello, I am</h4>
+            <h2 class="title">Giuseppe</h2>
+            <p>Graphic Designer & UI/UX Designer</p>
+            <a href="#section4"><button type="button" id="contattami" class="btn btn-outline-primary btn-lg">Contact</button></a>
+          </div>
+          <img src="../Senza-titolo-1.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+          </div>
+          </div>
+         </div>
+
+    <!-- PRESENTATION -->
+
+    <!-- DESCRIPTION -->
+
+    <div id="section2"></div>
+   <div class="container-fluid animated fadeInUp" id="descrizione">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <h2 class="who">Chi sono?</h2>
+         
+         
+
+           <p class="descr">
+            Mi chiamo Giuseppe Lavello, nato a Napoli,
+            classe 2001.
+           </p>
+
+           <p class="descr"> 
+            Ho studiato Grafica e mi sono diplomato presso
+            il Liceo artistico: 
+            Boccioni-Palizzi.
+            Attualmente studio presso Star2impact per
+            diventare Web Designer.</p>
+          
+            
+           <p class="descr">
+           Da sempre mi considero un creativo, trovo sfogo
+           Nel disegno, nella scrittura, insomma, qualsiasi
+           cosa che mi permetta di creare.
+          </p>
+
+        </div>
+        <div class="col-sm-6 ">
+         
+        </div>
+      </div>
+   </div>
+   </div>
+   <!-- DESCRIPTION -->
+
+   <!-- WORKS -->
+
+ 
+<div id="section3"></div>
+    <div class="space-works col-xs-12">
+      <div class="container  animated fadeInUp">
+        <div class="row">
+          <div class=" col-xs-12 col-sm-12 col-12">
+            <h2 class="my-works">I miei lavori</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+  
+  
+  <div class="container  animated fadeInUp" id="work-images">
+    <div class="card-deck">
+      <div class="card">
+        <a href="https://drive.google.com/drive/folders/1PvM89oqp4MC1h0rLeb1HYSBisY6tES-P?usp=sharing"><img src="../portfolio.jpg"  class="img-fluid" alt="Responsive image" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <a href="works.html"><h5 class="card-title">Portfolio lavori scolastici</h5></a>
+          
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Graphic</small>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://drive.google.com/drive/folders/1PvM89oqp4MC1h0rLeb1HYSBisY6tES-P?usp=sharing"><img src="../img1.jpg"  class="img-fluid" alt="Responsive image" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <a href="works.html"><h5 class="card-title">Ultimo lavoro</h5></a>
+        
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Branding</small>
+        </div>
+      </div>
+      <div class="card">
+       <a href="https://drive.google.com/drive/folders/1PvM89oqp4MC1h0rLeb1HYSBisY6tES-P?usp=sharing"> <img src="../Senza-titolo-1.jpg"  class="img-fluid" alt="Responsive image" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <a href="works.html"><h5 class="card-title">progetti personali</h5></a>
+          
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Branding</small>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+   
+<!-- WORKS -->
+ 
+
+<!-- FORM -->
+
+<div id="section4"></div>
+
+<div class="color-form col-xs-12">
+ <div class="container animated fadeInUp" id="Form">
+   <h2 class="form-title">Contattami</h2>
+  <form>
+    <div class="form-row">
+      <div class="form-group col-xs-12 col-md-6">
+        <label for="inputEmail4">Nome</label>
+        <input type="text" required class="form-control" id="inputEmail4"  placeholder="Nome">
+      </div>
+      <div class="form-group col-xs-12  col-md-6">
+        <label for="inputPassword4">Cognome</label>
+        <input type="text" required class="form-control" id="inputPassword4"  placeholder="Cognome">
+      </div>
+    </div>
+    <div class="form-group col-xs-12" id="email">
+      <label for="inputAddress">Email</label>
+      <input type="email" required class="form-control"  placeholder="emali@example.com">
+    </div>    
+    <button type="submit" id="invio" class="btn btn-primary">Sign in</button>
+  </form>
+ </div>
+</div>
+
+<!-- FORM -->
+
+
+<!-- FOOTER -->
+
+<div class="footer-color">
+  <div class="container-fluid animated fadeInUp" id="social-links">
+    <div class="row">
+      <div class="col-sm-3  offset-2">
+        <a href="https://www.instagram.com/giusevier/"> <p class="social"> @Giusevier <i class="fab fa-instagram" id="icone"></i></p></a>
+    </div>
+    <div class="col-sm-3">
+      <a href="https://www.whatsapp.com/"> <p class="social"> 39+ 338 414 90 92 <i class="fab fa-whatsapp" id="icone"></i></p></a>
+  </div>
+  <div class="col-sm-3">
+    <a href="https://www.google.com/intl/it/gmail/about/"> <p class="social"> Napoli2420@gmail.com  <i class="far fa-envelope" id="icone"></i></p></a>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+
+
+  <!-- BOOTSTRAP -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <!-- BOOTSTRAP -->
+
+    
+ 
+  </body>
+</html>
